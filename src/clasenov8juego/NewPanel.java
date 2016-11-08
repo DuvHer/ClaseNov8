@@ -6,36 +6,15 @@
 package clasenov8juego;
 
 import java.awt.Color;
-import javax.swing.JFrame;
 import java.awt.Graphics;
 import javax.swing.JPanel;
+
 /**
  *
  * @author Estudiante
  */
-public class TestPaintComponent extends JFrame {
-    public TestPaintComponent(){
-        //add (new NewPanel());
-        add (new Board());
-    }
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-        TestPaintComponent frame= new TestPaintComponent();
-        frame.setTitle("Test Paint Component");
-        frame.setSize(500, 500);
-        frame.setLocationRelativeTo(null);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
-        
-        
-    }
+public class NewPanel extends JPanel{
     
-}
-
-/*class NewPanel extends JPanel{
     @Override
     protected void paintComponent(Graphics g){
         super.paintComponent(g);
@@ -68,4 +47,6 @@ public class TestPaintComponent extends JFrame {
                 
     }
 
-}*/
+}
+    
+
